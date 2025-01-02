@@ -1,0 +1,64 @@
+*{
+    margin:0px;
+   
+
+    font-family: inter;
+}
+
+#menusuperior{
+    background-color: #303030;
+    width: 100%;
+    height: 300px; /* Ajuste conforme necessário */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    box-sizing: border-box; 
+    padding-bottom: 100px;
+}
+
+#titulo-menusuperior{
+
+    margin-left:150px;
+    margin-top: 75px;
+    font-size: 60px;
+
+}
+
+#texto-menusuperior{
+    margin-left: 150px;
+    margin-top: 5px;
+    font-size: 15px;
+}
+
+#menuinformacional{
+    padding: 70px;
+    background-color: #F9F9F9;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Três colunas iguais */
+    justify-items: center; /* Centraliza o conteúdo de cada coluna */
+    gap: 5px; /* Reduz o espaço entre as colunas */
+}
+span{
+    font-weight: bold;
+    
+}
+
+.texto-informacional{
+  
+    margin: 0; /* Remove margens adicionais */
+    position: relative;
+   
+}
+
+#ima02{
+    
+}
+
+#informativo2{
+    marr
+    display: grid;
+    grid-auto-flow: column;
+  
+  
+}
