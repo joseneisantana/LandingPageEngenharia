@@ -19,7 +19,7 @@
 
 #titulo-menusuperior{
 
-    margin-left:150px;
+    margin-left:40px;
     margin-top: 75px;
     font-size: 60px;
 
@@ -30,7 +30,7 @@
     margin-top: 5px;
     font-size: 15px;
 }
-
+/*Menu inferior*/
 #menuinformacional{
     padding: 70px;
     background-color: #F9F9F9;
@@ -41,6 +41,7 @@
 }
 span{
     font-weight: bold;
+    font-size: 25px;
     
 }
 
@@ -50,15 +51,46 @@ span{
     position: relative;
    
 }
+/*INFORMATIVA SEÇÃO*/
 
-#ima02{
+
+#bloco-info{
+    display: flex;
+    flex-wrap: nowrap;
+  
+    
     
 }
 
-#informativo2{
-    marr
-    display: grid;
-    grid-auto-flow: column;
+#imagen01{
+
+    
+    margin-left: 100px;
+    align-self: center;
+  
+   
+}
+#imagem02{
+    margin-left: 155px;
+    padding: 40px;
+   
+
+}
+
+
+
+
+
   
   
+  
+
+
+#final{
+    background-color:black;
+   
+
+    .h1{
+        width: 100%;
+    }
 }
