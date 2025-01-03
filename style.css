@@ -56,12 +56,14 @@ span{
 
 #bloco-info{
     display: flex;
-    flex-wrap: nowrap;
+   justify-content: center;
+   align-items: center;
+    gap: 0px; 
   
     
     
 }
-
+/*
 #imagen01{
 
     
@@ -70,8 +72,9 @@ span{
   
    
 }
+    */
 #imagem02{
-    margin-left: 155px;
+    
     padding: 40px;
    
 
@@ -79,18 +82,47 @@ span{
 
 
 
-
-
-  
-  
-  
-
-
-#final{
-    background-color:black;
+#fomulario{
    
+  padding: 100px;
+    background-color: #303030;
+    color:#ffff;
+    text-align: center;
+  
+}
 
-    .h1{
-        width: 100%;
-    }
+#titulo-form{
+    padding: 22px;
+}
+
+input{
+    width: 300px;
+    height: 40px;
+    background-color: #EAECE5;
+    margin: 15px;
+    border:0px ;
+    border-radius: 5px;
+    padding-left: 10px;
+
+}
+
+button{
+    background-color:#C07212 ;
+    height: 30px;
+    width: 193px;
+    color: #EAECE5;
+    border: 0px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    font-weight: bolder;
+    cursor: pointer;
+    
+
+}
+button:hover{
+    background-color:#dc7d0b ;
+    color: white;
+    transform: translateY(-7);
+    box-shadow: 0px 15px 20px #05103081 ;
+    transition-duration: 0.5s;
 }
